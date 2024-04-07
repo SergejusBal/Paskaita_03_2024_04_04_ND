@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KidsCalculator {
+public class Skaiciok {
     Scanner scanner = new Scanner(System.in);
     String scVerte;
 

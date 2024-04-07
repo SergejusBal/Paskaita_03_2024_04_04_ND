@@ -31,15 +31,15 @@ public class Main {
         System.out.println("Uzduotis 2");
         System.out.println();
 
-        KidsCalculator kidsCalculator = new KidsCalculator();
+        Skaiciok skaiciok = new Skaiciok();
 
         System.out.println("Ar norite atlikti aritmetinius veikmus?");
-        testi = kidsCalculator.atsakymas();
+        testi = skaiciok.atsakymas();
 
         while(testi) {
-            kidsCalculator.operacija();
+            skaiciok.operacija();
             System.out.println("Ar norite atlikti aritmetinius veikmus?");
-            testi = kidsCalculator.atsakymas();
+            testi = skaiciok.atsakymas();
         }
 
         ///////////////////////////////////////////////////////////
