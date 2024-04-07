@@ -7,7 +7,7 @@ public class Main {
         //////////////// Uzduotis 1
 
         System.out.println();
-        System.out.println("Uduotis 1");
+        System.out.println("Uzduotis 1");
         System.out.println();
 
        // new Sveikinimas().sveikinimas();
@@ -27,6 +27,10 @@ public class Main {
         ///////////////////////////////////////////////////////////
         //////////////// Uzduotis 2
 
+        System.out.println();
+        System.out.println("Uzduotis 2");
+        System.out.println();
+
         KidsCalculator kidsCalculator = new KidsCalculator();
 
         System.out.println("Ar norite atlikti aritmetinius veikmus?");
@@ -41,6 +45,9 @@ public class Main {
         ///////////////////////////////////////////////////////////
         //////////////// Uzduotis 3
 
+        System.out.println();
+        System.out.println("Uzduotis 3");
+        System.out.println();
 
         TekstasAtbulas atbulas = new TekstasAtbulas();
 
